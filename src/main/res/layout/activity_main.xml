@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFFFF">
+
+
+        <TextView
+            android:id="@+id/namaz"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="172dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#0E7539"
+            android:gravity="center"
+            android:text="@string/Namaz"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fajar"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="216dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/fajar"
+            android:backgroundTint="#B3EAE3"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/namaz"
+            app:layout_constraintTop_toBottomOf="@+id/namaz" />
+        <TextView
+            android:id="@+id/zohar"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:backgroundTint="#B3EAE3"
+            android:text="@string/zohar"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/fajar"
+            app:layout_constraintTop_toBottomOf="@+id/fajar" />
+        <TextView
+            android:id="@+id/asar"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/asar"
+            android:backgroundTint="#B3EAE3"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/zohar"
+            app:layout_constraintTop_toBottomOf="@+id/zohar" />
+        <TextView
+            android:id="@+id/magrib"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/magrib"
+            android:backgroundTint="#B3EAE3"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/asar"
+            app:layout_constraintTop_toBottomOf="@+id/asar" />
+        <TextView
+            android:id="@+id/isha"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="@string/isha"
+            android:backgroundTint="#B3EAE3"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/magrib"
+            app:layout_constraintTop_toBottomOf="@+id/magrib" />
+
+        <TextView
+            android:id="@+id/timings"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="172dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#0E7539"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/timings"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.44"
+            app:layout_constraintStart_toEndOf="@+id/namaz"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fajarTiming"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="5:30 am"
+            android:backgroundTint="#B3EAE3"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/timings"
+            app:layout_constraintTop_toBottomOf="@+id/timings" />
+        <TextView
+            android:id="@+id/zoharTimings"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="1:30 pm"
+            android:backgroundTint="#B3EAE3"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/fajarTiming"
+            app:layout_constraintTop_toBottomOf="@+id/fajarTiming" />
+        <TextView
+            android:id="@+id/asarTiming"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:text="3:30 pm"
+            android:backgroundTint="#B3EAE3"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/zoharTimings"
+            app:layout_constraintTop_toBottomOf="@+id/zoharTimings" />
+        <TextView
+            android:id="@+id/magribTiming"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:backgroundTint="#B3EAE3"
+            android:text="5:30 pm"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/asarTiming"
+            app:layout_constraintTop_toBottomOf="@+id/asarTiming" />
+        <TextView
+            android:id="@+id/ishaTiming"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:backgroundTint="#B3EAE3"
+            android:text="7:30 pm"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/magribTiming"
+            app:layout_constraintTop_toBottomOf="@+id/magribTiming" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

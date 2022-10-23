@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Islamic App</string>
+
+    <string name="Namaz">Namaz</string>
+    <string name="fajar">Fajar</string>
+    <string name="zohar">Zohar</string>
+    <string name="asar">Asar</string>
+    <string name="magrib">Magrib</string>
+    <string name="isha">Isha</string>
+
+    <string name="timings">Timings</string>
+
+    <string name="announcements">Announcements</string>
+    <string name="back_to_main">back to main</string>
+</resources>
